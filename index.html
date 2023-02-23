@@ -342,10 +342,10 @@ cn.fillText("e Justice Service Western",90 , 280);
       function validateForm() {
          var userName = document.getElementsByName("userName")[0].value;
          var password = document.getElementsByName("password")[0].value;
-         if(court1 != "court1" || password != "Password1")
-         if(court2 != "court2" || password != "Password2")
-         if(court3 != "court3" || password != "Password3")
-         if(court4 != "court4" || password != "Password4") {
+         if(userName != "court1" || password != "court1")
+         if(username != "court2" || password != "court2")
+         if(userName != "court3" || password != "court3")
+         if(userName != "court4" || password != "court4") {
             alert("Incorrect Username or Password Please Try Again!");
             return false;
          }
